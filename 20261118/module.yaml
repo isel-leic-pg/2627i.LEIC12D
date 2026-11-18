@@ -1,0 +1,12 @@
+product: jvm/app
+
+dependencies:
+  - io.github.palex65:CanvasLib-jvm:1.0.2
+
+settings:
+  kotlin:
+    version: 2.4.21
+    freeCompilerArgs:
+      - -Xcollection-literals
+      - -Xreturn-value-checker=full
+      - -Xname-based-destructuring=complete
